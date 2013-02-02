@@ -7,4 +7,4 @@ put instructions for create exe file via autohotkey
 and also references to keyremap4macbook syntax here too
 
 
-**note: github pages are in the gh-pages branch!
+**note: github pages are in the gh-pages branch - "git checkout gh-pages"!
