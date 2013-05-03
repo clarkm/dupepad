@@ -39,6 +39,11 @@
 			<autogen>--KeyToKey-- KeyCode::DOT, KeyCode::Y</autogen>
 			
 			<autogen>--KeyToKey--KeyCode::OPTION_R, KeyCode::RETURN</autogen>
+		
+			<!-- great than and less that for html markup -->	
+			<autogen>__KeyToKey__ KeyCode::Z, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen> 
+     			<autogen>__KeyToKey__ KeyCode::X, KeyCode::DOT,   ModifierFlag::SHIFT_L</autogen> 
+
 			
 	</item>
 	
