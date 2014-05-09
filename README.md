@@ -2,8 +2,10 @@ dupePad
 ========
 As many of you may know, the Frogpad keyboard is dying and the hardware may not be manufactured again. 
 In effort to preserve the frogpad layout that many people have devoted much time into learning, I have cloned the frogpad layout for Windows and Mac. 
-The frogpad clone uses autohotkey for Microsoft Windows (and can be compiled to a portable .exe file).
-And KeyRemap4MacBook for Mac.
+The frogpad clone uses autohotkey for Microsoft Windows (and can be compiled to a portable .exe file) and KeyRemap4MacBook for Mac.
+
+
+Instructions:
 ========
 
 WINDOWS:
@@ -16,4 +18,4 @@ This uses the helper utility, "KeyRemap4MacBook" (http://pqrs.org/macosx/keyrema
 To do this you must go in to System Preferences > KeyRemap4MacBook > Misc & Uninstall > open private.xml. Once there, use the xml file from this repo for the rest.
 
 
-**note: github pages are in the gh-pages branch - "git checkout gh-pages"!
+**note: these files are for the right hand. the source files can be modified accordingly for left hand. if you change it to left hand, please do a pull request so this repo can be updated.
