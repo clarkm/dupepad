@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <root>
 	<item>
-		<name>Frogpad v2.1</name>
-		<identifier>Frogpad v2.1</identifier>
+		<name>Frogpad v2.2</name>
+		<identifier>Frogpad v2.2</identifier>
 		
 			<autogen>--KeyOverlaidModifier-- KeyCode::SPACE, KeyCode::VK_MODIFIER_EXTRA5, KeyCode::SPACE</autogen>
 			
+			<autogen>--KeyToKey--KeyCode::T, ModifierFlag::EXTRA5, KeyCode::TAB</autogen>
 			<autogen>--KeyToKey--KeyCode::U, ModifierFlag::EXTRA5, KeyCode::B</autogen>
 			<autogen>--KeyToKey--KeyCode::I, ModifierFlag::EXTRA5, KeyCode::M</autogen>
 			<autogen>--KeyToKey--KeyCode::O, ModifierFlag::EXTRA5, KeyCode::J</autogen>
@@ -15,9 +16,11 @@
 			<autogen>--KeyToKey--KeyCode::K, ModifierFlag::EXTRA5, KeyCode::C</autogen>
 			<autogen>--KeyToKey--KeyCode::L, ModifierFlag::EXTRA5, KeyCode::V</autogen>
 			<autogen>--KeyToKey--KeyCode::M, ModifierFlag::EXTRA5, KeyCode::K</autogen>
+			<autogen>--KeyToKey--KeyCode::Y, ModifierFlag::EXTRA5, KeyCode::QUOTE</autogen>
 			<autogen>--KeyToKey--KeyCode::COMMA, ModifierFlag::EXTRA5, KeyCode::G</autogen>
 			<autogen>--KeyToKey--KeyCode::DOT, ModifierFlag::EXTRA5, KeyCode::X</autogen>
 
+			<autogen>--KeyToKey--KeyCode::B, ModifierFlag::EXTRA5, KeyCode::FORWARD_DELETE</autogen>
 			<autogen>--KeyToKey--KeyCode::N, ModifierFlag::EXTRA5, KeyCode::DELETE</autogen>
 			<autogen>--KeyToKey--KeyCode::COMMAND_R, ModifierFlag::EXTRA5, KeyCode::COMMA</autogen>
 			<autogen>--KeyToKey--KeyCode::OPTION_R, ModifierFlag::EXTRA5, KeyCode::DOT</autogen>
@@ -37,14 +40,16 @@
 			<autogen>--KeyToKey-- KeyCode::M, KeyCode::N</autogen>
 			<autogen>--KeyToKey-- KeyCode::COMMA, KeyCode::S</autogen>
 			<autogen>--KeyToKey-- KeyCode::DOT, KeyCode::Y</autogen>
-			
-			<autogen>--KeyToKey--KeyCode::OPTION_R, KeyCode::RETURN</autogen>
-		
-			<!-- great than and less that for html markup -->	
-			<autogen>__KeyToKey__ KeyCode::Z, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen> 
-     			<autogen>__KeyToKey__ KeyCode::X, KeyCode::DOT,   ModifierFlag::SHIFT_L</autogen> 
 
+			<autogen>--KeyToKey-- KeyCode::OPTION_R, KeyCode::ENTER</autogen>
+			
+			<!-- for web dev -->
+			<autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::SHIFT_L, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen>
+			<autogen>__KeyToKey__ KeyCode::X, ModifierFlag::SHIFT_L, KeyCode::DOT,   ModifierFlag::SHIFT_L</autogen>
+
+
+            <!-- temporary right shift key: -->
+            <autogen>__KeyToKey__ KeyCode::SHIFT_R, KeyCode::VK_LOCK_SHIFT_L_FORCE_OFF, KeyCode::VK_STICKY_SHIFT_L</autogen>
 			
 	</item>
-	
 </root>
