@@ -1,55 +1,49 @@
 <?xml version="1.0"?>
 <root>
 	<item>
-		<name>Frogpad v2.2</name>
-		<identifier>Frogpad v2.2</identifier>
+		<name>Frogpad v2.1 - Left</name>
+		<identifier>Frogpad v2.1 - Left</identifier>
 		
 			<autogen>--KeyOverlaidModifier-- KeyCode::SPACE, KeyCode::VK_MODIFIER_EXTRA5, KeyCode::SPACE</autogen>
 			
-			<autogen>--KeyToKey--KeyCode::T, ModifierFlag::EXTRA5, KeyCode::TAB</autogen>
-			<autogen>--KeyToKey--KeyCode::U, ModifierFlag::EXTRA5, KeyCode::B</autogen>
-			<autogen>--KeyToKey--KeyCode::I, ModifierFlag::EXTRA5, KeyCode::M</autogen>
-			<autogen>--KeyToKey--KeyCode::O, ModifierFlag::EXTRA5, KeyCode::J</autogen>
-			<autogen>--KeyToKey--KeyCode::G, ModifierFlag::EXTRA5, KeyCode::Q</autogen>
-			<autogen>--KeyToKey--KeyCode::H, ModifierFlag::EXTRA5, KeyCode::Z</autogen>
-			<autogen>--KeyToKey--KeyCode::J, ModifierFlag::EXTRA5, KeyCode::L</autogen>
-			<autogen>--KeyToKey--KeyCode::K, ModifierFlag::EXTRA5, KeyCode::C</autogen>
-			<autogen>--KeyToKey--KeyCode::L, ModifierFlag::EXTRA5, KeyCode::V</autogen>
-			<autogen>--KeyToKey--KeyCode::M, ModifierFlag::EXTRA5, KeyCode::K</autogen>
-			<autogen>--KeyToKey--KeyCode::Y, ModifierFlag::EXTRA5, KeyCode::QUOTE</autogen>
-			<autogen>--KeyToKey--KeyCode::COMMA, ModifierFlag::EXTRA5, KeyCode::G</autogen>
-			<autogen>--KeyToKey--KeyCode::DOT, ModifierFlag::EXTRA5, KeyCode::X</autogen>
+			<autogen>--KeyToKey--KeyCode::T, ModifierFlag::EXTRA5, KeyCode::B</autogen>
+			<autogen>--KeyToKey--KeyCode::R, ModifierFlag::EXTRA5, KeyCode::M</autogen>
+			<autogen>--KeyToKey--KeyCode::E, ModifierFlag::EXTRA5, KeyCode::J</autogen>
 
-			<autogen>--KeyToKey--KeyCode::B, ModifierFlag::EXTRA5, KeyCode::FORWARD_DELETE</autogen>
-			<autogen>--KeyToKey--KeyCode::N, ModifierFlag::EXTRA5, KeyCode::DELETE</autogen>
-			<autogen>--KeyToKey--KeyCode::COMMAND_R, ModifierFlag::EXTRA5, KeyCode::COMMA</autogen>
-			<autogen>--KeyToKey--KeyCode::OPTION_R, ModifierFlag::EXTRA5, KeyCode::DOT</autogen>
+			<autogen>--KeyToKey--KeyCode::H, ModifierFlag::EXTRA5, KeyCode::Q</autogen>
+			<autogen>--KeyToKey--KeyCode::G, ModifierFlag::EXTRA5, KeyCode::Z</autogen>
+			<autogen>--KeyToKey--KeyCode::F, ModifierFlag::EXTRA5, KeyCode::L</autogen>
+			<autogen>--KeyToKey--KeyCode::D, ModifierFlag::EXTRA5, KeyCode::C</autogen>
+			<autogen>--KeyToKey--KeyCode::S, ModifierFlag::EXTRA5, KeyCode::V</autogen>
 
-			<autogen>--KeyToKey-- KeyCode::T, KeyCode::F</autogen>
+			<autogen>--KeyToKey--KeyCode::C, ModifierFlag::EXTRA5, KeyCode::K</autogen>
+			<autogen>--KeyToKey--KeyCode::X, ModifierFlag::EXTRA5, KeyCode::G</autogen>
+			<autogen>--KeyToKey--KeyCode::Z, ModifierFlag::EXTRA5, KeyCode::X</autogen>
+
+			<autogen>--KeyToKey--KeyCode::V, ModifierFlag::EXTRA5, KeyCode::DELETE</autogen>
+			<autogen>--KeyToKey--KeyCode::COMMAND_L, ModifierFlag::EXTRA5, KeyCode::COMMA</autogen>
+			<autogen>--KeyToKey--KeyCode::OPTION_L, ModifierFlag::EXTRA5, KeyCode::DOT</autogen>
+
+			<autogen>--KeyToKey-- KeyCode::U, KeyCode::F</autogen>
 			<autogen>--KeyToKey-- KeyCode::Y, KeyCode::A</autogen>
-			<autogen>--KeyToKey-- KeyCode::U, KeyCode::R</autogen>
-			<autogen>--KeyToKey-- KeyCode::I, KeyCode::W</autogen>
-			<autogen>--KeyToKey-- KeyCode::O, KeyCode::P</autogen>
-			<autogen>--KeyToKey-- KeyCode::G, KeyCode::O</autogen>
-			<autogen>--KeyToKey-- KeyCode::H, KeyCode::E</autogen>
-			<autogen>--KeyToKey-- KeyCode::J, KeyCode::H</autogen>
-			<autogen>--KeyToKey-- KeyCode::K, KeyCode::T</autogen>
-			<autogen>--KeyToKey-- KeyCode::L, KeyCode::D</autogen>
+			<autogen>--KeyToKey-- KeyCode::T, KeyCode::R</autogen>
+			<autogen>--KeyToKey-- KeyCode::R, KeyCode::W</autogen>
+			<autogen>--KeyToKey-- KeyCode::E, KeyCode::P</autogen>
+
+			<autogen>--KeyToKey-- KeyCode::H, KeyCode::O</autogen>
+			<autogen>--KeyToKey-- KeyCode::G, KeyCode::E</autogen>
+			<autogen>--KeyToKey-- KeyCode::F, KeyCode::H</autogen>
+			<autogen>--KeyToKey-- KeyCode::D, KeyCode::T</autogen>
+			<autogen>--KeyToKey-- KeyCode::S, KeyCode::D</autogen>
+
 			<autogen>--KeyToKey-- KeyCode::B, KeyCode::U</autogen>
-			<autogen>--KeyToKey-- KeyCode::N, KeyCode::I</autogen>
-			<autogen>--KeyToKey-- KeyCode::M, KeyCode::N</autogen>
-			<autogen>--KeyToKey-- KeyCode::COMMA, KeyCode::S</autogen>
-			<autogen>--KeyToKey-- KeyCode::DOT, KeyCode::Y</autogen>
-
-			<autogen>--KeyToKey-- KeyCode::OPTION_R, KeyCode::ENTER</autogen>
+			<autogen>--KeyToKey-- KeyCode::V, KeyCode::I</autogen>
+			<autogen>--KeyToKey-- KeyCode::C, KeyCode::N</autogen>
+			<autogen>--KeyToKey-- KeyCode::X, KeyCode::S</autogen>
+			<autogen>--KeyToKey-- KeyCode::Z, KeyCode::Y</autogen>
 			
-			<!-- for web dev -->
-			<autogen>__KeyToKey__ KeyCode::Z, ModifierFlag::SHIFT_L, KeyCode::COMMA, ModifierFlag::SHIFT_L</autogen>
-			<autogen>__KeyToKey__ KeyCode::X, ModifierFlag::SHIFT_L, KeyCode::DOT,   ModifierFlag::SHIFT_L</autogen>
-
-
-            <!-- temporary right shift key: -->
-            <autogen>__KeyToKey__ KeyCode::SHIFT_R, KeyCode::VK_LOCK_SHIFT_L_FORCE_OFF, KeyCode::VK_STICKY_SHIFT_L</autogen>
+			<autogen>--KeyToKey--KeyCode::OPTION_L, KeyCode::RETURN</autogen>
+		
 			
 	</item>
 </root>
