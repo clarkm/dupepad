@@ -1,4 +1,4 @@
-; Frogpad by Clark!!!!
+; Right hand Frogpad By Clark - github.com/clarkm/dupepad
 
 ; top row
 $t:: Send f
