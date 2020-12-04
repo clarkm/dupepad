@@ -470,7 +470,12 @@
         },
         {
             "from": {
-                "key_code": "b"
+                "key_code": "b",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [ {
                 "key_code": "u"
@@ -479,7 +484,12 @@
         },
         {
             "from": {
-                "key_code": "comma"
+                "key_code": "comma",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "s"
@@ -488,7 +498,12 @@
         },
         {
             "from": {
-                "key_code": "g"
+                "key_code": "g",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "o"
@@ -497,7 +512,12 @@
         },
         {
             "from": {
-                "key_code": "h"
+                "key_code": "h",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "e"
@@ -506,7 +526,12 @@
         },
         {
             "from": {
-                "key_code": "i"
+                "key_code": "i",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "w"
@@ -515,7 +540,12 @@
         },
         {
             "from": {
-                "key_code": "j"
+                "key_code": "j",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "h"
@@ -524,7 +554,12 @@
         },
         {
             "from": {
-                "key_code": "k"
+                "key_code": "k",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "t"
@@ -533,7 +568,12 @@
         },
         {
             "from": {
-                "key_code": "l"
+                "key_code": "l",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "d"
@@ -542,7 +582,12 @@
         },
         {
             "from": {
-                "key_code": "m"
+                "key_code": "m",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "n"
@@ -551,7 +596,12 @@
         },
         {
             "from": {
-                "key_code": "n"
+                "key_code": "n",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "i"
@@ -560,7 +610,12 @@
         },
         {
             "from": {
-                "key_code": "o"
+                "key_code": "o",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "p"
@@ -569,7 +624,12 @@
         },
         {
             "from": {
-                "key_code": "period"
+                "key_code": "period",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "y"
@@ -578,7 +638,12 @@
         },
         {
             "from": {
-                "key_code": "right_option"
+                "key_code": "right_option",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "return_or_enter"
@@ -587,7 +652,12 @@
         },
         {
             "from": {
-                "key_code": "t"
+                "key_code": "t",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "f"
@@ -596,7 +666,12 @@
         },
         {
             "from": {
-                "key_code": "u"
+                "key_code": "u",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "r"
@@ -605,7 +680,12 @@
         },
         {
             "from": {
-                "key_code": "y"
+                "key_code": "y",
+                "modifiers": {
+                    "optional": [
+                        "any"
+                    ]
+                }
             },
             "to": [{
                 "key_code": "a"
