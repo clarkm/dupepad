@@ -413,6 +413,25 @@
         },
         {
             "from": {
+                "key_code": "l",
+                "modifiers": {
+                    "mandatory": [
+                        "right_control"
+                    ],
+                    "optional": [
+                        "any"
+                    ]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "v"
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
                 "key_code": "right_option",
                 "modifiers": {
                     "mandatory": [
